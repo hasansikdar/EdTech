@@ -25,6 +25,17 @@
 }
 
 
+/* courses */
+.courses .card {
+    margin:15px 0;
+}
+.card-image img{
+    height:180px;
+    width:180px;
+}
+
+
+
 
 @media (max-width:576px){
     .carousel-item img {
@@ -36,5 +47,21 @@
     .carousel-content {
         padding:100px 10px;
         height:100%;
+    }
+}
+
+@media (max-width:576px) {
+    .courses .card {
+        overflow:hidden;
+    }
+    .course-title {
+        width:90% !important;
+    }
+    .courses .card-inner{
+        flex-flow:column;
+    }
+    .card-image img {
+        width:95vw;
+        height:30vh;
     }
 }
