@@ -55,6 +55,15 @@
         justify-content:center !important;
         text-align:center;
     }
+    .student-title{
+        width:80% !important;
+    }
+    .successful-student .card img {
+        width:100vw;
+    }
+    .successful-student .card {
+        margin:10px 0;
+    }
     .join-inner .modal {
         text-align:left;
     }
