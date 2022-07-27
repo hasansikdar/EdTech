@@ -42,6 +42,47 @@
 }
 
 
+/* students feedback */
+.carousel-control-next, .carousel-control-prev {
+    width:0% !important;
+}
+.carousel-control-next, .carousel-control-next {
+    width:0% !important;
+}
+.fa-angle-left {
+    font-size:24px;
+    background:#E6F6FF !important;
+    padding:.8rem;
+    border-radius:50%;
+    color:black;
+
+}
+.fa-angle-right {
+    font-size:24px;
+    background:#E6F6FF !important;
+    padding:.8rem;
+    border-radius:50%;
+    color:black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width:1200px){
     .explore-institute img{
         height:75vh;
@@ -67,9 +108,12 @@
     .join-inner .modal {
         text-align:left;
     }
+    .feedback-title {
+        width:80% !important;
+    }
 }
 @media (max-width:576px){
-    .carousel-item img {
+    .header-banner .carousel-item img {
         height:30vh;
     }
     .carousel-content-inner {
