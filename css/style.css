@@ -35,8 +35,19 @@
 }
 
 
+/* explore intitute */
+.explore-institute .row {
+    background:#F4FAFD;
+    --bs-gutter-x:0;
+}
 
 
+@media (max-width:1200px){
+    .explore-institute img{
+        height:75vh;
+        width:100%;
+    }
+}
 @media (max-width:576px){
     .carousel-item img {
         height:30vh;
@@ -48,9 +59,6 @@
         padding:100px 10px;
         height:100%;
     }
-}
-
-@media (max-width:576px) {
     .courses .card {
         overflow:hidden;
     }
@@ -63,5 +71,10 @@
     .card-image img {
         width:95vw;
         height:30vh;
+    }
+
+    .explore-institute img{
+        height:50vh !important;
+        width:100vw !important;
     }
 }
