@@ -1,4 +1,4 @@
-boyd {
+body {
     font-family:"Poppins", sans-serif;
 }
 /* ==============================
@@ -112,5 +112,8 @@ boyd {
     .card-image img {
         width:100%;
         height:100%;
+    }
+    .header-banner .carousel-item img {
+        height:55vh;
     }
 }
